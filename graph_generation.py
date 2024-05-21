@@ -4,7 +4,7 @@ import networkx as nx
 
 #Final pathlength of the shortest path should divide by 15, since 15 pixels = 1 meter
 
-svg_file_path = './annotated_floorplan.svg'
+svg_file_path = './HG_Floor_G_Annotated.svg'
 
 def extract_text(html_content):
     soup = BeautifulSoup(html_content, 'lxml')  
